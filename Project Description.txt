@@ -1,0 +1,21 @@
+﻿
+I came into this project very intimidated and well…..I still feel intimidated. However, I got a lot further than I expected. After first trying to install the ELK stack onto a windows 10 install I kept getting a Jruby error even when running a test .conf file. After fighting it I tried to load a VM of linux and for some reason the VM wouldn’t boot. I then tried WSL but I was honestly lost without some sort of GUI and directions. I tried on windows once again starting from scratch and had same results. 
+I decided I would go ahead and download a new Ubuntu ISO. I burned the ISO with IMGburn and proceeded to load the computer. At first it would not see the OS. I found that in the BIOS it needed to be on Legacy instead of UEFI for some reason. This is however a Win7 native machine…
+
+After following directions on the elastic.co page and a youtube video I found I got Logstash all ready and installed on Ubuntu. The PC I am using was still having issues but I assumed once everything was configured properly it would be better. 
+
+I got Logstash running finally and got it to run a test .conf file. Like a weight lifted off my shoulders. Then on to the next step. How the heck do I get logstash to read the log file sent to me in the skills test?
+I finally found a test sample online and I FINALLY got logstash to read the whole file!
+
+Every 2-3 runs of a .conf file and my Ubuntu would lock up. Sometimes it would run the .conf file in 20-30 seconds and other times it would take minutes or just completely lock my programs and mouse would lose response. I think this PC probably has a bad cpu or some swollen caps. But I digress...
+
+I spent multiple hours Saturday and Sunday trying to get data out of the syslog. After many errors I finally got it to pull a few parts of data and name them. Once I did that I thought the rest would go smoother but I never got any further. 
+
+I DID NOT get any of the exact data listed on the skills test to parse. I got stuck on the antivirus section right after contosohost1
+It was 11PM Sunday Night so I decided to go ahead and get all the data read to turn in. 
+
+Getting ready to publish this text file, my .conf File, The .log File I created, and a screenshot of the .conf file running in terminal and outputting the stdout. 
+
+
+Curtis Hardy
+
